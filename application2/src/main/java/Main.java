@@ -29,7 +29,7 @@ public class Main {
         int sum2Minus2 = sum2 -2;
 
         //6. Виводить результат порівняння сум (true, якщо перша сума більша)
-        boolean equalVal2 = sum1 > sum2;
+        boolean equalVal2 = sum1 > sum2Minus2;
         System.out.println( "результат порівняння сум після змін: " + sum1 +  " > " + sum2Minus2 + ": " + equalVal2);
 
         //7. Виводить true якщо хоча б одна сума кратна 2, інакше - false
